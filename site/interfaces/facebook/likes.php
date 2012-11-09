@@ -1,0 +1,1 @@
+<div class="fb-like" data-href="http://www.facebook.com/pages/Altivia/242025865835958?v=wall" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>

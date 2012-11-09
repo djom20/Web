@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <!--FTPSite Altiviaot.webcindario.com-->
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Rss de AltiviaOt</title>
+    <link>http://www.altiviaot.webcindario.com</link>
+    <description>Articulos, tutoriales y noticias acerca de PHP.</description>
+    <language>es</language>
+    <managingEditor>djom20@live.com</managingEditor>
+    <webMaster>altiviaot@live.com</webMaster>
+    <copyright>Copyright © 2012 AltiviaOt</copyright>
+    <item>
+      <title>Tendencia a Ruby y Python pero ya no a PHP, ¿Porque?</title>
+      <pubDate>Tue, 21 Feb 2012 08:51:20 -0500</pubDate>
+      <link>http://www.altiviaot.webcindario.com/articulos.php?id=2</link>
+      <author>djom20@live.com</author>
+      <category>lenguajes</category>
+      <description><![CDATA[Ruby y Python que son lenguajes de programacion no solo orientadas a objetos sino oriendtada a la red por parte del servidor.]]></description>
+    </item>
+    <item>
+      <title>¿Que lenguaje de programacion escoger como inicial?</title>
+      <pubDate>Tue, 21 Feb 2012 08:50:02 -0500</pubDate>
+      <link>http://www.altiviaot.webcindario.com/articulos.php?id=1</link>
+      <guid isPermaLink="true">http://www.altiviaot.webcindario.com/articulos.php?id=1</guid>
+      <author>djom20@live.com</author>
+      <category>all</category>
+      <description><![CDATA[Cual es principal <strong>problema</strong> al <strong>tratar de escoger</strong> el primer lenguaje para <strong><em>programar</em></strong>.]]></description>
+    </item>
+  </channel>
+</rss>

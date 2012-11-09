@@ -1,0 +1,1 @@
+<?php header('Location: ../errores/no_url.php'); ?>

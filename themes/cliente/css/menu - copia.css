@@ -1,0 +1,36 @@
+ul{ list-style-type: square; }
+#lista{ background-image: url('../img/home.png'); background-position: left; background-repeat: no-repeat; list-style: none; } 
+#menu { _background:url('../img/menu/left.gif') no-repeat; background:url('../img/menu/left.png') no-repeat;	 height:52px; padding-left:6px; width:auto; }
+#menu-box { background:#222 url('../img/menu/right.png'); left:0; position: fixed; top:0; }
+#menu-box #menu { margin:0px; }
+#menu a { _margin-right:1px; background:none; display:block; float:left; height:52px; line-height:50px; margin-right:5px; margin-top:1px; padding:0 10px 0 0; padding-right:5px; position:relative; text-align:center; text-decoration:none; text-transform:uppercase; white-space:nowrap; width:auto; z-index:10; }
+#menu a:hover { background:url('../img/menu/selected-right-sub.png')no-repeat right -1px; }
+#menu a:hover span { background:url('../img/menu/selected-left-sub.png') no-repeat 0 -3px; }
+#menu li { display:block; float:left; margin:0; padding:0 0px 0 0; position:relative; width:auto; z-index:9; }
+#menu li div { _background:url('../img/menu/subsubmenu-top.gif') no-repeat 0px 0; background:url('../img/menu/subsubmenu-top.png') no-repeat 0px 0; float:left; left:0; list-style:none; margin:0px 0 0 -4px; padding:0; position:absolute; top:52px; visibility:hidden; width:180px; z-index:11; }
+#menu li:hover>div { visibility:visible; }
+#menu li.back { background:url('../img/menu/selected-left-sub.png') no-repeat 0 0; height:52px; margin:0px 0 0 0; padding:0; position:absolute; width:5px; z-index:8; }
+#menu li.back .left { background:url('../img/menu/selected-right-sub.png') no-repeat right 0; float:none; height:52px; left:0; margin:0 0 0 5px; padding:0; position:relative; top:0; visibility:visible; width:auto; }
+#menu li.current a,div#menu ul.menu>li:hover>a { background:url('../img/menu/selected-right-sub.png')no-repeat right -1px; }
+#menu li.current a span,div#menu ul.menu>li:hover>a span { background:url('../img/menu/selected-left-sub.png') no-repeat 0 -3px; }
+#menu li.current ul a,div#menu li.current ul a span {background:none;}
+#menu li.last {background:none;}
+#menu ul { float:left; list-style:none; margin:0; padding:0;	}
+#menu ul.menu { _background:url('../img/menu/right.gif') no-repeat right 0; background:url('../img/menu/right.png') no-repeat right 0; padding-right:6px; }
+#menu ul.menu>li:hover>a span { color:#07b3e1; }
+#menu ul ul { _background:url('../img/menu/submenu-bottom.gif') no-repeat 0px bottom; background:url('../img/menu/submenu-bottom.png') no-repeat 0px bottom; margin:10px 0 0 0; padding:0px 4px 10px 4px; z-index:12; }
+#menu ul ul a { display:block; color:#fff; font-size:13px; float:none; height:auto; line-height:25px; margin:0 8px; padding-left:5px; text-transform:none; white-space:normal; width:152px; z-index:-1; }
+#menu ul ul a:hover { background:none; background-color:#3c3c3c; }
+#menu ul ul a:hover span { color:#07b3e1; background:none; }
+#menu ul ul a.parent { _background-image:url('../img/menu/submenu-pointer-hover.gif'); background:url('../img/menu/submenu-pointer.png') no-repeat right bottom; }
+#menu ul ul a.parent span {background:none;}
+#menu ul ul a.parent:hover { _background:url('../img/menu/submenu-pointer-hover.gif') no-repeat right bottom; background:url('../img/menu/submenu-pointer.png') no-repeat right bottom; background-color:#3c3c3c; }
+#menu ul ul a.parent:hover span { background:none; }
+#menu ul ul a span { line-height:25px; font-size:13px; padding:0 5px; }
+#menu ul ul div { margin:-62px 0 0 165px !important; padding:0; width:180px; }
+#menu ul ul div li { position:relative; top:-10px; }
+#menu ul ul li { background:none; padding:0; width:100%; z-index:9; }
+#menu ul ul li.last { background:none; }
+#menu ul ul ul { padding:10px 4px 0 4px; }
+#menu ul ul span { margin-top:0; text-align:left; }
+#menu span { background:none; background-position:95% 0; background-repeat:no-repeat; color:#fff; cursor:pointer; display:block; font:normal 13px Helvetica,Arial,FreeSans,sans-serif; line-height:50px; margin-top:2px; padding-left:15px; text-align:center; }

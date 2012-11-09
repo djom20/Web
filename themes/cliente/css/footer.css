@@ -1,0 +1,20 @@
+h3.bothead{ color: #000; border-bottom:1px solid #CFCFCF; font-size:15px; height:20px; padding:10px 0px 10px 10px; }
+
+#anuncios.botwid { width:190px !important; /* WIDTH DE LAS DIVICIONES DEL TITULO POR SECCION */ }
+#anuncios{ box-shadow:2px 2px 25px #CCCCCC, -2px -2px #999; clear: both; font: message-box; position: relative; box-shadow:2px 2px 25px #CCCCCC, -2px -2px #999; }
+#bottom{ margin:0px auto; width: 1270px;}
+#contacto.botwid{ font-weight: bold; width:180px  /* WIDTH DE LAS DIVICIONES DEL TITULO POR SECCION */ }
+#enlaces.botwid ul li{ width: 140px !important; /* TAMAÑO DE LAS LINEAS DEL ENLACE */ }
+#enlaces.botwid{ width:150px !important; /* WIDTH DE LAS DIVICIONES DEL TITULO POR SECCION */ }
+#PageSubFooterContainer{ background: #FFF; height:270px; width: auto; } /* COLOR DEL FONDO DE LOS ANUNCIOS Y EL ANCHO */
+#wrapper { margin:0px auto; position: relative; width: auto; /* OJO NO CAMBIAR */ }
+
+.botwid li{ list-style-type:none; margin:0; padding:0; }
+.botwid ul li a:hover{ text-shadow:1px 1px 0px #F3F3F3; }
+.botwid ul li a:link, .botwid ul li a:visited{ border-bottom:1px solid #CFCFCF; color: #555; /* COLOR DE LA LETRA  */ display:block; padding: 5px 0px 5px 5px; text-shadow:1px 1px 0px #F3F3F3; text-decoration: none; }
+.botwid ul li { clear: left; height:100%; line-height:18px;	 list-style-type: none; width: 170px; /* TAMAÑO DE LAS LINEAS DEL ENLACE */ }
+.botwid ul { background-repeat:no-repeat; border:0; list-style-type:none; margin:0px; padding: 0px; padding: 0px 5px 5px 5px; }
+.botwid{ color: #000; /* COLOR DE LA LETRA  */ height: 50px; font-size:12px; font-family: " Kaushan de secuencias de comandos ", cursiva ; float:left; margin:10px 0px 0px 15px; padding-bottom:10px; }
+.footer{ font-size: 12px; font-style: italic; font-weight: 600; text-align:center; margin: 10px; padding: 10px; }
+.textwidget a{ color: #000; }
+.textwidget{ text-align:justify; }

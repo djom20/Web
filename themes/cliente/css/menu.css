@@ -1,0 +1,10 @@
+#nav a.bottom span{ background:transparent url(../img/menu/bottom.png) no-repeat center center;  -moz-background:transparent url(../img/menu/bottom.png) no-repeat center center; }
+#nav a.top span, #nav a.bottom span{ float:left; height:16px; width:16px; }
+#nav a.top span{ background:transparent url(../img/menu/top.png) no-repeat center center; }
+#nav a:hover{ background:#D9D9DA none; color: #fff; }
+#nav a{ background:transparent url(../img/menu/overlay.png) repeat-x center left; border:1px solid #ccc; color:#999; cursor: pointer; float:left; font-size:15px; font-weight:bold; height:16px; line-height:16px; padding: 4px 6px; text-decoration: none; }
+#nav ul li{ display:inline; float:left; margin:0px 2px; }
+#nav ul{ height:25px; list-style:none; margin:6px auto ; width:520px; }
+#nav{ background:#fff url(../img/menu/nav.png) repeat-x center left; border-bottom:1px solid #ddd; height:38px; left:0px; position:fixed; right:0px; top:0px; z-index:999999; }
+
+
